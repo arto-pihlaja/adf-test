@@ -1,0 +1,23 @@
+{
+	"name": "SoHeaderToCsv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ArtoBlob",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "SoHeader.csv",
+				"folderPath": "sapdata",
+				"container": "adfblob"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

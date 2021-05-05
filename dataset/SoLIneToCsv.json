@@ -1,0 +1,23 @@
+{
+	"name": "SoLIneToCsv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ArtoBlob",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "SoLine.csv",
+				"folderPath": "sapdata",
+				"container": "adfblob"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

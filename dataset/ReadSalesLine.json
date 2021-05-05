@@ -1,0 +1,15 @@
+{
+	"name": "ReadSalesLine",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SapTableRead",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SapTableResource",
+		"schema": [],
+		"typeProperties": {
+			"tableName": "VBAK"
+		}
+	}
+}
