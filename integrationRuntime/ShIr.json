@@ -1,0 +1,7 @@
+{
+	"name": "ShIr",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "Self-hosted IR with SAP table connector etc."
+	}
+}
