@@ -1,5 +1,5 @@
 {
-	"name": "CsvToBlob",
+	"name": "SoHeader",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "ArtoBlob",
@@ -9,7 +9,10 @@
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
-				"type": "AzureBlobStorageLocation"
+				"type": "AzureBlobStorageLocation",
+				"fileName": "SoHeader.csv",
+				"folderPath": "sapdata",
+				"container": "adfblob"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
