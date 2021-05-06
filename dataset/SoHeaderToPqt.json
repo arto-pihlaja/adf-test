@@ -1,0 +1,21 @@
+{
+	"name": "SoHeaderToPqt",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ArtoBlob",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "SoHeader",
+				"folderPath": "sapdata",
+				"container": "adfblob"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
